@@ -1,0 +1,250 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+/*grids*/
+.contenedor
+{
+    display: grid;
+    grid-template-areas:    "header" "main" "footer";
+    grid-template-columns: 100%;
+    grid-template-rows: max-content;
+}
+.header
+{
+    grid-area: auto;
+}
+.main
+{
+    grid-area: auto;
+	background-image: url(../imagenes/Project\ 2\ \(3\).jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.footer
+{
+    grid-area: auto;
+}
+/* todo el cuerpo */
+body
+{
+	font-family: sans-serif;
+	padding: 90 px, 20px, 0px;
+}
+body
+
+/* estilo de la cabecera */
+header
+{
+	background-color: rgb(157, 102, 255);
+	height: 100px;
+	position: static;
+	width: 100%;
+	top: 0;
+	left: 0;
+	text-decoration: none;
+}
+/* estilo de imagen */
+h3 img
+{
+	height: 50px;
+	width: 50px;
+}
+/* estilo de lista */
+nav ul 
+{
+	background-color: rgb(255, 150, 255);
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+	justify-content: center;
+	list-style: none;
+}
+/* estilo al contenido de las listas */
+nav ul li a
+{
+	display: flex;
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	font-size: 15px;
+	padding: center;
+	width: 100%;
+	text-transform: uppercase;
+	margin: 0;
+	line-height: 50px;
+	margin-left: 20px;
+	margin-right: 20px;
+
+}
+/* estilo de sombreado a la barra de navegacion */
+nav ul li a:hover
+{background-color: rgb(130, 65, 130);}
+/* estilo a la imagen de portada */
+.titulo
+{
+	display: flex;
+	justify-content: center;
+	text-transform: uppercase;
+}
+img
+{
+height: 315px;
+width: 850px;
+}
+/* estilo al pie de pagina */
+footer
+{
+	justify-content: space-between;
+	background-color: rgb(0, 0, 0);
+	display: flex;
+	width: 100%;
+	height: 100px;
+	top: 0;
+	display: flex;
+	font-size: 15px;
+}
+/* estilo al contenido de la pagina */
+footer h3
+{
+	color: rgb(255, 255, 255);
+}
+/*edicion de imagen de portadas todos los html*/
+.portada
+{
+	display: flex;
+	width: 100%;
+	height: auto;
+	padding-top: 30px;
+	padding: auto;
+}
+/*edicion de iframe ubicacion gmaps*/
+.ubicacion
+{
+	display: flex;
+	width: 100%;
+	height: auto;
+	padding-top: 30px;
+	padding: auto;
+}
+/*edicion de tabla*/
+td
+{
+	display: flex;
+	width: 100%;}
+/*edicion de imagen de tabla*/
+img
+{
+	display:flex;
+	height:auto;
+	width:100%;
+	padding: auto;
+	align-content: center;
+	flex: content;
+}
+/*edicion de contenido de la tabla*/
+tr
+{
+	display: flex;
+	width: auto;
+	justify-content: space-between;
+	padding: auto;
+	align-items: center;
+	text-transform: uppercase;
+	font-size: 20px;
+	flex: content;
+	font-family: Arial, Helvetica, sans-serif;
+}
+/*edicion de formulario*/
+form
+{
+	display: flex;
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	font-size: 20px;
+	padding: center;
+	width: 100%;
+	text-transform: uppercase;
+	margin: 0;
+	line-height: 50px;
+	margin-left: 20px;
+	margin-right: 20px;
+
+}
+label
+{
+	justify-content: center;
+}
+@media only screen and (max-width: 700px) {
+	.contenedor
+{
+    display: grid;
+    grid-template-areas:    "header" "main" "footer";
+    grid-template-columns: 100%;
+    grid-template-rows: max-content;
+}
+.header
+{
+    grid-area: auto;
+}
+.main
+{
+    grid-area: auto;
+	background-image: url(../imagenes/Project\ 2\ \(3\).jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.footer
+{
+    grid-area: auto;
+}
+	body{
+		font-size: 10px;
+		width: 100%;
+	}
+	main{
+		width:100%;
+	}
+	img{
+		width: 100%;
+		height: auto;
+	}
+	.portada{
+		width: 100%;
+		height: auto;
+	}
+	.ubicacion{
+		width: 100%;
+		height: auto;
+	}
+	form{
+		width: 100%;
+		font-size: 10px;
+	}
+	nav{
+		width: 100%;
+		height: auto;
+	}
+	nav ul{
+
+		width: 100%;
+		justify-content: center;
+		padding: 0%;
+	}
+	nav ul li a{
+		width: 100%;
+		font-size: 8px;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	nav ul li a:hover{
+		background-color: rgb(130, 65, 130);
+	}
+	header{
+		width: 100%;
+		height: 50px;
+	}
+	input{
+		width: 100%;
+	}
+}
