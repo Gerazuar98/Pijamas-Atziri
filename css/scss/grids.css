@@ -1,0 +1,22 @@
+.contenedor {
+  display: grid;
+  grid-template-areas: "header" "main" "footer";
+  grid-template-columns: 100%;
+  grid-template-rows: -webkit-max-content;
+  grid-template-rows: max-content;
+}
+
+.header {
+  grid-area: auto;
+}
+
+.main {
+  grid-area: auto;
+  background-image: url(../imagenes/Project\ 2\ \(3\).jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer {
+  grid-area: auto;
+}/*# sourceMappingURL=grids.css.map */
